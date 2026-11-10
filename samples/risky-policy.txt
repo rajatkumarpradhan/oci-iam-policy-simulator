@@ -1,0 +1,6 @@
+# Sample policy with an over-broad grant and a gap for the audit team.
+Allow group tenancy-admins to manage all-resources in tenancy
+Allow group app-operators to manage instances in compartment prod
+Allow group app-operators to read all-resources in compartment prod
+Allow group app-operators to manage instances in compartment prod
+Allow group app-operators to read metrics in compartment prod where request.operation='GetMetricData'
