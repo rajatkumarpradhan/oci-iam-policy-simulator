@@ -1,0 +1,6 @@
+[
+  {"group": "app-operators", "verb": "manage", "resource": "instances", "compartment": "prod"},
+  {"group": "app-operators", "verb": "read", "resource": "metrics", "compartment": "prod/eu", "operation": "GetMetricData"},
+  {"group": "audit-team", "verb": "read", "resource": "audit-events", "compartment": "prod"},
+  {"group": "app-operators", "verb": "read", "resource": "metrics", "compartment": "prod", "operation": "ListMetrics"}
+]
