@@ -1,0 +1,5 @@
+[
+  {"group": "app-operators", "verb": "use", "resource": "instances", "compartment": "prod"},
+  {"group": "audit-team", "verb": "read", "resource": "audit-events", "compartment": "prod/finance"},
+  {"group": "net-operators", "verb": "manage", "resource": "virtual-network-family", "compartment": "prod/network/eu"}
+]
