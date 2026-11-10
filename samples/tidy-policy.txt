@@ -1,0 +1,5 @@
+# Least-privilege sample: every group gets only the verbs it needs.
+Allow group app-operators to use instances in compartment prod
+Allow group app-operators to read metrics in compartment prod
+Allow group audit-team to read audit-events in tenancy
+Allow group net-operators to manage virtual-network-family in compartment prod/network
